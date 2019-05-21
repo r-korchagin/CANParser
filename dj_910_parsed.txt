@@ -1,0 +1,120 @@
+59,139 Nominal Friction - Percent Torque (514) 5 %
+59,145 Clutch Pressure (123) 4080 kPa
+59,146 Hydraulic Temperature (1638) 12 C
+59,150 Engine Fuel Rate (183) 3 l/h
+59,184 Washer Fluid Level (80) 102 %
+59,251 Seconds (959) 14.25 Seconds
+59,251 Engine Fuel Rate (183) 2.9000000000000004 l/h
+59,252 Compass Bearing (165) 246.773605 deg
+59,264 Recommended Gear (1113) 130 gear value
+59,264 Transmission Selected Gear (524) 0 gear value
+59,331 Estimated Percent Fan Speed (975) 53.2 %
+59,350 Engine Fuel Rate (183) 3 l/h
+59,390 Nominal Friction - Percent Torque (514) 5 %
+59,411 Engine Fuel Delivery Pressure (94) 16 kPa
+59,450 Engine Fuel Rate (183) 3 l/h
+59,451 Seconds (959) 14.5 Seconds
+59,451 Compass Bearing (165) 246.750166 deg
+59,491 Engine Diesel Particulate Filter Inlet Pressure (81) 127.5 kPa
+59,550 Engine Fuel Rate (183) 3 l/h
+59,611 Engine Coolant Temperature (110) 55 C
+59,638 Nominal Friction - Percent Torque (514) 5 %
+59,650 Engine Fuel Rate (183) 3 l/h
+59,651 Seconds (959) 14.75 Seconds
+59,651 Compass Bearing (165) 246.781418 deg
+59,693 Net Battery Current (114) 130 Amps
+59,750 Engine Fuel Rate (183) 3 l/h
+59,850 Engine Fuel Rate (183) 3.1 l/h
+59,851 Seconds (959) 15 Seconds
+59,852 Compass Bearing (165) 246.83610900000002 deg
+59,891 Nominal Friction - Percent Torque (514) 5 %
+59,910 Engine Fuel Delivery Pressure (94) 16 kPa
+59,950 Engine Fuel Rate (183) 3.1 l/h
+59,990 Engine Diesel Particulate Filter Inlet Pressure (81) 127.5 kPa
+00,050 Engine Fuel Rate (183) 3.1 l/h
+00,051 Seconds (959) 15 Seconds
+00,051 Compass Bearing (165) 246.82829600000002 deg
+00,139 Nominal Friction - Percent Torque (514) 5 %
+00,145 Clutch Pressure (123) 4080 kPa
+00,146 Hydraulic Temperature (1638) 12 C
+00,150 Engine Fuel Rate (183) 3.1 l/h
+00,184 Washer Fluid Level (80) 102 %
+00,250 Engine Fuel Rate (183) 3.1 l/h
+00,251 Seconds (959) 15.25 Seconds
+00,251 Compass Bearing (165) 246.82829600000002 deg
+00,264 Recommended Gear (1113) 130 gear value
+00,264 Transmission Selected Gear (524) 0 gear value
+00,331 Estimated Percent Fan Speed (975) 53.2 %
+00,350 Engine Fuel Rate (183) 3 l/h
+00,390 Nominal Friction - Percent Torque (514) 5 %
+00,411 Engine Fuel Delivery Pressure (94) 20 kPa
+00,450 Engine Fuel Rate (183) 3 l/h
+00,451 Seconds (959) 15.5 Seconds
+00,451 Compass Bearing (165) 246.84392200000002 deg
+00,491 Engine Diesel Particulate Filter Inlet Pressure (81) 127.5 kPa
+00,550 Engine Fuel Rate (183) 3 l/h
+00,611 Engine Coolant Temperature (110) 55 C
+00,639 Nominal Friction - Percent Torque (514) 5 %
+00,650 Engine Fuel Rate (183) 3 l/h
+00,651 Seconds (959) 15.75 Seconds
+00,652 Compass Bearing (165) 246.83610900000002 deg
+00,691 Net Battery Current (114) 130 Amps
+00,750 Engine Fuel Rate (183) 3.0500000000000003 l/h
+00,850 Engine Fuel Rate (183) 3.0500000000000003 l/h
+00,851 Seconds (959) 16 Seconds
+00,852 Compass Bearing (165) 246.82048300000002 deg
+00,891 Nominal Friction - Percent Torque (514) 5 %
+00,910 Engine Fuel Delivery Pressure (94) 20 kPa
+00,950 Engine Fuel Rate (183) 3.1 l/h
+00,990 Engine Diesel Particulate Filter Inlet Pressure (81) 127.5 kPa
+01,050 Engine Fuel Rate (183) 3.1500000000000004 l/h
+01,051 Seconds (959) 16 Seconds
+01,052 Compass Bearing (165) 246.81267000000003 deg
+01,139 Nominal Friction - Percent Torque (514) 5 %
+01,145 Clutch Pressure (123) 4080 kPa
+01,146 Hydraulic Temperature (1638) 12 C
+01,150 Engine Fuel Rate (183) 3.1 l/h
+01,185 Washer Fluid Level (80) 102 %
+01,250 Engine Fuel Rate (183) 3.1 l/h
+01,251 Seconds (959) 16.25 Seconds
+01,252 Compass Bearing (165) 246.82048300000002 deg
+01,264 Recommended Gear (1113) 130 gear value
+01,265 Transmission Selected Gear (524) 0 gear value
+01,332 Estimated Percent Fan Speed (975) 53.2 %
+01,350 Engine Fuel Rate (183) 3.1500000000000004 l/h
+01,391 Nominal Friction - Percent Torque (514) 5 %
+01,412 Engine Fuel Delivery Pressure (94) 20 kPa
+01,450 Engine Fuel Rate (183) 3.1 l/h
+01,451 Seconds (959) 16.5 Seconds
+01,452 Compass Bearing (165) 246.81267000000003 deg
+01,491 Engine Diesel Particulate Filter Inlet Pressure (81) 127.5 kPa
+01,550 Engine Fuel Rate (183) 3.1 l/h
+01,612 Engine Coolant Temperature (110) 55 C
+01,639 Nominal Friction - Percent Torque (514) 5 %
+01,650 Engine Fuel Rate (183) 3.0500000000000003 l/h
+01,651 Seconds (959) 16.75 Seconds
+01,652 Compass Bearing (165) 246.78923100000003 deg
+01,691 Net Battery Current (114) 130 Amps
+01,750 Engine Fuel Rate (183) 3 l/h
+01,850 Engine Fuel Rate (183) 3 l/h
+01,851 Seconds (959) 17 Seconds
+01,852 Compass Bearing (165) 246.773605 deg
+01,891 Nominal Friction - Percent Torque (514) 5 %
+01,911 Engine Fuel Delivery Pressure (94) 16 kPa
+01,950 Engine Fuel Rate (183) 3 l/h
+01,991 Engine Diesel Particulate Filter Inlet Pressure (81) 127.5 kPa
+02,050 Engine Fuel Rate (183) 3 l/h
+02,051 Seconds (959) 17 Seconds
+02,052 Compass Bearing (165) 246.757979 deg
+02,139 Nominal Friction - Percent Torque (514) 5 %
+02,145 Clutch Pressure (123) 4080 kPa
+02,146 Hydraulic Temperature (1638) 12 C
+02,151 Engine Fuel Rate (183) 3 l/h
+02,185 Washer Fluid Level (80) 102 %
+02,250 Engine Fuel Rate (183) 3 l/h
+02,251 Seconds (959) 17.25 Seconds
+02,252 Compass Bearing (165) 246.78923100000003 deg
+02,264 Recommended Gear (1113) 130 gear value
+02,265 Transmission Selected Gear (524) 0 gear value
+02,332 Estimated Percent Fan Speed (975) 53.2 %
+02,351 Engine Fuel Rate (183) 3 l/h
