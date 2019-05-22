@@ -6,8 +6,8 @@ const process = require('process');
 const fs = require('fs');
 
 function execute() {
-    let fileName = process.argv[2] || 'dj_910.trc';
-    if (fileName == '') return console.log('Please select file');
+    let fileName = process.argv[2] || '';
+    if (fileName == '') return console.log('Please set file');
     console.log('Open file', process.argv[2]);
 
     fs.readFile(fileName, 'utf8', function(err, contents) {
@@ -26,6 +26,7 @@ function execute() {
  */
 function parser(content, pgn) {
     let parsedData = [];
+    let notFound = [], notFoundUnic = [];
     for (let i = 0; i < content.length; i++) {
         let line = content[i];
         if (line.split(' ').length > 5 ){
@@ -34,10 +35,24 @@ function parser(content, pgn) {
             let dataStr = line.slice(18,line.length);
             let id = parseInt(idStr.slice(2,6),16);
             if (pgn[id] !== undefined)
-            parsedData = parsedData.concat(selectData(pgn[id], dataStr, time));
+                parsedData = parsedData.concat(selectData(pgn[id], dataStr, time, id, idStr));
+            else 
+                if (!isNaN(id)){
+                    notFound.push(idStr +
+                        ' [' + id + '] ' +
+                        time + ' ' +
+                        dataStr.trim().split(' ').reverse().join(' '));
+                    if (notFoundUnic.indexOf(id) === -1)
+                        notFoundUnic.push(id);
+                }
         }
     }
-    writeFile(parsedData.join('\n'));
+    writeFile(process.argv[2].split('.')[0]+'_parsed.txt',
+     parsedData.join('\n'));
+    writeFile(process.argv[2].split('.')[0]+'_notFound.txt',
+     notFound.join('\n'));
+    if (notFoundUnic.length > 0) 
+        console.log('Not Found ', notFoundUnic.length, 'PGN');
     console.log('Result saved at ', process.argv[2].split('.')[0]+'_parsed.txt');
 }
 
@@ -45,9 +60,8 @@ function parser(content, pgn) {
  * 
  * @param {String} data 
  */
-function writeFile(data) {
-    let fileName = process.argv[2] || 'dj_1234.trc';
-    fs.writeFile(fileName.split('.')[0]+'_parsed.txt', 
+function writeFile(fileName, data) {
+    fs.writeFile(fileName, 
             data, (err) => {if (err) throw err;} );
 }
 
@@ -56,15 +70,18 @@ function writeFile(data) {
  * @param {Object} pgn 
  * @param {String} Data 
  */
-function selectData(pgn, Data, time) {
+function selectData(pgn, Data, time, id, idStr) {
     let parsedData = [];
     for (let spn in pgn) {
         let d = getSPN(pgn[spn], Data);
         if (d !== undefined){
-            let r = time + ' ' +
+            let r =idStr +
+                ' ['+ id + '] ' +
+                time + ' ' +
                  pgn[spn].Name + 
                  ' ('+spn+') ' + 
-                 d + ' ' + pgn[spn].Units;
+                 d + ' ' + 
+                 pgn[spn].Units;
             // console.log(r);
             if (pgn[spn].Units !== 'bit')
                 parsedData.push(r);
